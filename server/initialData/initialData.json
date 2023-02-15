@@ -1,0 +1,133 @@
+{
+    "users": [
+        {
+            "name": {
+                "first": "Admin",
+                "middle": "",
+                "last": "Ben"
+            },
+            "isBusiness": true,
+            "isAdmin": true,
+            "phone": "0500000000",
+            "email": "Admin@krakov.co",
+            "password": "Aa123456!",
+            "image": {
+                "url": "https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png",
+                "alt": "Google Logo"
+            },
+            "address": {
+                "country": "Israel",
+                "city": "Tel Aviv",
+                "street": "Street Name",
+                "houseNumber": 1,
+                "zip": 12345
+            }
+        },
+        {
+            "name": {
+                "first": "Ben",
+                "middle": "",
+                "last": "Krakovsky"
+            },
+            "isBusiness": false,
+            "phone": "0500000000",
+            "email": "Admin1@krakov.co",
+            "password": "Aa123456!",
+            "image": {
+                "url": "https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png",
+                "alt": "Google Logo"
+            },
+            "address": {
+                "country": "Israel",
+                "city": "Tel Aviv",
+                "street": "Street Name",
+                "houseNumber": 1,
+                "zip": 12345
+            }
+        },
+        {
+            "name": {
+                "first": "Ben",
+                "middle": "",
+                "last": "Krakovsky"
+            },
+            "isBusiness": true,
+            "phone": "0500000000",
+            "email": "Admin2@krakov.co",
+            "password": "Aa123456!",
+            "image": {
+                "url": "https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png",
+                "alt": "Google Logo"
+            },
+            "address": {
+                "country": "Israel",
+                "city": "Tel Aviv",
+                "street": "Street Name",
+                "houseNumber": 1,
+                "zip": 12345
+            }
+        }
+    ],
+    "cards": [
+        {
+            "title": "iStore",
+            "subtitle": "Azrieli HaNegev Mall",
+            "description": "Apple Authorized Reseller",
+            "phone": "0500000000",
+            "email": "admin@gmail.com",
+            "web": "https://www.hackampus.com",
+            "image": {
+                "url": "https://www.istoreil.co.il/media/wysiwyg/2023/Contact_Us/b7/store-image.jpg",
+                "alt": "iStore | Azrieli HaNegev Mall"
+            },
+            "address":{
+                "state":"Israel",
+                "country":"Israel",
+                "city":"Beer Sheva",
+                "street":"Yizhak Rager",
+                "houseNumber": 2,
+                "zip":"123456"
+            }
+        },
+        {
+            "title": "iStore",
+            "subtitle": "Dizengoff 149 Tel Aviv",
+            "description": "Apple Authorized Reseller",
+            "phone": "0500000000",
+            "email": "admin1@gmail.com",
+            "web": "https://www.hackampus.com",
+            "image": {
+                "url": "https://www.istoreil.co.il/media/wysiwyg/2023/Contact_Us/dizengoff/store-image2.jpg",
+                "alt": "iStore | Dizengoff 149 Tel Aviv"
+            },
+            "address":{
+                "state":"Israel",
+                "country":"Israel",
+                "city":"Tel Aviv",
+                "street":"Dizengoff",
+                "houseNumber": 149,
+                "zip":"123456"
+            }
+        },
+        {
+            "title": "iStore",
+            "subtitle": "Rotschild 34 Tel Aviv",
+            "description": "Apple Authorized Reseller",
+            "phone": "0500000000",
+            "email": "admin2@gmail.com",
+            "web": "https://www.hackampus.com",
+            "image": {
+                "url": "https://www.istoreil.co.il/media/wysiwyg/2022/contact_us/rothschild-tlv/store-image-01.jpg",
+                "alt": "iStore | Rotschild 34 Tel Aviv"
+            },
+            "address":{
+                "state":"Israel",
+                "country":"Israel",
+                "city":"Tel Aviv",
+                "street":"Rotschild",
+                "houseNumber": 34,
+                "zip":"123456"
+            }
+        }
+    ]
+}
