@@ -10,7 +10,7 @@ const getUsers = async () => {
     if(DB === 'mongoDB'){
         try {
             const users = await UserSchema.find({},{password: 0});
-            if(!users.length) return [];
+            if(!users.length) return ([]);
             return Promise.resolve(users);
         } catch (error) {
             error.status = 404;

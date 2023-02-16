@@ -55,7 +55,8 @@ export const deleteUser = async (userId) => {
     return Promise.reject(error.message);
   }
 }
-export const businessuser = async (userId) => {
+
+export const businessUser = async (userId) => {
   try {
     const { data } = await axios.patch(`${apiUrl}/users/${userId}`);
     return data;

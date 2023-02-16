@@ -30,7 +30,7 @@ CardsFeedback.propTypes = {
 };
 
 CardsFeedback.defaultProps = {
-  onLike: () => {},
+  onLike: () => {}
 };
 
 export default CardsFeedback;

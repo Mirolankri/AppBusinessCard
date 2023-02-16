@@ -16,7 +16,7 @@ const UserDeleteDialog = ({ isDialogOpen, onDelete, onChangeDialog }) => {
       maxWidth="xs"
     >
       <DialogTitle id="alert-dialog-title">
-        {"Are you sure you want to delete this User?"}
+        {"Are you sure you want to delete this user?"}
       </DialogTitle>
       <DialogContent>
         <DialogContentText id="alert-dialog-description">
@@ -30,7 +30,7 @@ const UserDeleteDialog = ({ isDialogOpen, onDelete, onChangeDialog }) => {
           cancel
         </Button>
         <Button onClick={onDelete} autoFocus color="info">
-          Delete User
+          Delete user
         </Button>
       </DialogActions>
     </Dialog>

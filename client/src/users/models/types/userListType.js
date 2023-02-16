@@ -1,5 +1,6 @@
-import { shape, string, number, arrayOf, oneOfType, bool } from "prop-types";
+import { shape, string, bool, instanceOf } from "prop-types";
 import addressType from "./addressType";
+import imageType from "./imageType";
 import nameType from "./nameType";
 
 const userListType = shape({
@@ -9,7 +10,8 @@ const userListType = shape({
     email: string.isRequired,
     address: addressType.isRequired,
     isAdmin: bool.isRequired,
-    isBusiness: bool.isRequired
+    isBusiness: bool.isRequired,
+    image: imageType.isRequired
 })
 
 export default userListType

@@ -1,6 +1,6 @@
 import { useState, useCallback, useMemo } from "react";
 import useAxios from "../../hooks/useAxios";
-import { login, signup, edit, getUser as getUserFromDB, getAllUsers, deleteUser, businessuser } from "../services/usersApiService";
+import { login, signup, edit, getUser as getUserFromDB, getAllUsers, deleteUser, businessUser } from "../services/usersApiService";
 import {
   getUser,
   removeToken,
@@ -103,7 +103,7 @@ const useUsers = () => {
       }
     }, [requestStatus]
   )
-  
+
   const handleDeleteUser = useCallback(
     async (user_id) => {
       try {
@@ -115,18 +115,17 @@ const useUsers = () => {
       }
     }, [requestStatus]
   )
+
   const handleBusinessUser = useCallback(
     async (user_id) => {
       try {
-        // setLoading(true);
-       await businessuser(user_id)
-        snack("success", "The user has successfully change")
-        // requestStatus(false, null, cards, card);
-
+        await businessUser(user_id)
+        snack("success", "The user has been successfully changed")
+        requestStatus(false, null, users, user)
       } catch (error) {
         requestStatus(false, error, null);
       }
-    }, [requestStatus]
+    }, [requestStatus, users]
   )
 
   const value = useMemo(
